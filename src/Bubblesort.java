@@ -2,8 +2,8 @@ public class Bubblesort {
     public static void main(String[] args) {
         //das zu sortierende Array
         int array [] = {5, 1, 3, 8, 11};
-        //ich bin ein koMMENTARAAA
-        System.out.println("Hier kommt ein unsortiertes Array: ");
+
+        System.out.println("Unsortiertes Array: ");
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
         }
@@ -11,9 +11,8 @@ public class Bubblesort {
         int swapCounter = 0;
         boolean swapped;
 
-        //das ist eine wundervolle do-Schleife
         do {
-            swapped = true;
+            swapped = false;
             for (int i = 0; i < array.length - 1; i++) {
 
                 //Vergleichen der Elemente

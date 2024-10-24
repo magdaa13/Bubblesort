@@ -3,7 +3,6 @@ public class Bubblesort {
         //das zu sortierende Array
         int array [] = {5, 1, 3, 8, 11};
 
-        //Hier wird das unsortierte Array ausgegeben
         System.out.println("Unsortiertes Array: ");
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
@@ -39,6 +38,6 @@ public class Bubblesort {
        }
         // Ausgabe der Anzahl der Vertauschungen
         System.out.println("Anzahl der Vertauschungen: " + swapCounter);
-        System.out.println("Neuer Satz");
+        System.out.println("LOL im pfushing your code");
         }
     }

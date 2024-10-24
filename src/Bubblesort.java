@@ -8,7 +8,7 @@ public class Bubblesort {
             System.out.println(array[i]);
         }
         //Vertauschungen zählen
-        int swapCounter = 0;
+        int swapCounter = 3;
         boolean swapped;
 
         do {
@@ -31,7 +31,7 @@ public class Bubblesort {
             while(swapped);{
 
                 //Ausgabe sortiertes Array
-                System.out.println("Sortiertes Array;");
+                System.out.println("hier ein Sortiertes Array;");
             for (int i = 0; i < array.length; i++) {
                 System.out.print(array[i] + " ");
             }
@@ -39,5 +39,6 @@ public class Bubblesort {
         // Ausgabe der Anzahl der Vertauschungen
         System.out.println("Anzahl der Vertauschungen: " + swapCounter);
         System.out.println("LOL im pfushing your code");
+        System.out.println("pfushing the code again");
         }
     }

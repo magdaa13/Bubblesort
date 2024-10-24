@@ -4,5 +4,6 @@ public class NeueKlasse2 {
 
     public void irgendeineMethode(){
         System.out.println("Hä");
+        System.out.println("Ring ding ding ding!!");
     }
 }
